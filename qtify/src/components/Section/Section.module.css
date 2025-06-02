@@ -1,27 +1,24 @@
-.sectionTop{
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+.wrapper {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 
-.toggleText{
-    color: var(--color-primary);
-    cursor: pointer;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
-.sectionInnerWrapper{
-    margin-top: 18px;
+.toggleText {
+  cursor: pointer;
+  color: var(--color-primary);
 }
 
-.showAllWrapper{
-    gap: 40px; /*got it from figma*/
-    display: flex;
-    flex-wrap: wrap;  /*"flex-wrap: wrap;" specifies that the flex items(cards here) will wrap(will get adjust to new line) if necessary, Try resizing the browser's window to visualize*/
+.cardsWrapper {
+  margin-top: 18px;
 }
 
-.progressBar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
+.filterWrapper {
+  margin-top: 15px;
 }
